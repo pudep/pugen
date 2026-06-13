@@ -6,14 +6,16 @@ This is a CLI program that generates a random password of a desired length (any 
 
 ## How to use
 
-```bash
+```sh
 pasgen <length>
 ```
 
 Example:
-```bash
+```sh
+#command -->
 pasgen 20
-# wIPQJ*BpD1?4]BF/5hjn
+#output --> 
+wIPQJ*BpD1?4]BF/5hjn
 ```
 
 ## How to download / install
