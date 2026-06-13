@@ -7,12 +7,12 @@ This is a CLI program that generates a random password of a desired length (any 
 ## How to use
 
 ```sh
-pasgen <length>
+pas <length>
 ```
 
 Example:
 ```sh
-pasgen 20
+pas 20
 #wIPQJ*BpD1?4]BF/5hjn
 ```
 
