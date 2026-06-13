@@ -21,12 +21,8 @@ pasgen 20
 ### Option 1: Install via Cargo (requires Rust)
 ```bash
 cargo install --git https://github.com/anoninus/pasgen
-```
-
-### Option 2: Build from source
-```bash
-git clone https://github.com/anoninus/pasgen.git
-cd pasgen
-cargo build --release
-./target/release/pasgen 20
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
