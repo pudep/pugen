@@ -17,28 +17,6 @@ pas 20
 
 # How to download / install
 
-```bash
-cargo install --git https://github.com/pudep/pasgen
-
-sh -c '
-  case "$(basename "$SHELL")" in
-    fish)
-      rc="$HOME/.config/fish/config.fish"
-      mkdir -p "$HOME/.config/fish"
-      line="set -gx PATH \$HOME/.cargo/bin \$PATH"
-      ;;
-    zsh)
-      rc="$HOME/.zshrc"
-      line="export PATH=\"\$HOME/.cargo/bin:\$PATH\""
-      ;;
-    *)
-      rc="$HOME/.bashrc"
-      line="export PATH=\"\$HOME/.cargo/bin:\$PATH\""
-      ;;
-  esac
-
-  grep -qxF "$line" "$rc" 2>/dev/null || echo "$line" >> "$rc"
-
-  exec $SHELL
-'
+```sh
+cargo install pugen
 ```
